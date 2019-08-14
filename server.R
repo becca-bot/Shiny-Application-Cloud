@@ -14,7 +14,7 @@ options(scipen = 999)
 
 #connect sql database
 connect <- dbConnect(RMariaDB::MariaDB(),
-                     user="root", password="root",
+                     user="root", password="pasword",
                      dbname="house_database", host="localhost")
 
 dbListTables(connect)
