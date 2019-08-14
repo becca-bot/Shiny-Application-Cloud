@@ -19,7 +19,7 @@ connect <- dbConnect(RMariaDB::MariaDB(),
 
 dbListTables(connect)
 #SQL query to get all data frome database
-select_all_query <- "SELECT * FROM house_database.housedata";
+select_all_query <- "SELECT * FROM house_database.house_data";
 
 
 #Turn out SQL query into a dataframe
